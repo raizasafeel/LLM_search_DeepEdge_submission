@@ -46,24 +46,24 @@ bashCopypip install -r requirements.txt
    - Go to Google AI Studio
    - Create an API key for the Gemini model
 5. Configure Environment Variables
-- Replace .env file in the flask_app directory with your API keys:
-   SERPER_API_KEY=your_serper_api_key_here
-   GOOGLE_API_KEY=your_googlr_api_key_here
+  - Replace .env file in the flask_app directory with your API keys:
+     - SERPER_API_KEY=your_serper_api_key_here
+     - GOOGLE_API_KEY=your_googlr_api_key_here
 
 ## Running the Application
 
 1. Start the Flask Backend: 
-- Navigate to the flask_app directory and run:
-```
-python app.py
-```
-- The backend will start on http://localhost:5001
+  - Navigate to the flask_app directory and run:
+  ```
+  python app.py
+  ```
+  - The backend will start on http://localhost:5001
 2. Start the Streamlit Frontend
-- In a separate terminal, navigate to the streamlit_app directory and run:
-```
-streamlit run app.py
-```
-The frontend will open in your default web browser
+  - In a separate terminal, navigate to the streamlit_app directory and run:
+  ```
+  streamlit run app.py
+  ```
+  The frontend will open in your default web browser
 
 ## Project Structure
 
