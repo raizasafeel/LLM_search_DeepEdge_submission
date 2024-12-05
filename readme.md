@@ -36,7 +36,9 @@ python -m venv venv
 venv\Scripts\activate
 ```
 3. Install Dependencies
-bashCopypip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 4. Obtain API Keys
    Serper API Key:
    - Visit Serper.dev
